@@ -284,7 +284,13 @@ body {
   margin-right: 15px;
 }
 
-
+.footer__social-link:hover i {
+  color: var(--primary-color);
+}
+.footer__item:hover .footer__link {
+color: #5fb4a2;
+transition: all 0.4s ease;
+}
 
 
 
@@ -366,14 +372,14 @@ body {
   }
   .header__btn {
     display: block;
-    font-size: 30px;
-    color: var(--white-bg);
+    font-size: 40px;
+    color: var(--text-color);
     z-index: 1000;
   }
 
   .header__menu {
     position: fixed;
-    top: 60px;
+    top: 110px;
     right: 32px;
     width: 0;
     height: 186px;

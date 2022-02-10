@@ -6,7 +6,7 @@ let count = 0;
 elheaderbtn.addEventListener('click', function () {
   elheadermenu.classList.toggle('show');
   if (count == 0) {
-    elheaderbtn.style.color = '#fff';
+    elheaderbtn.style.color = '#333D4B';
     elIcon.className = "bx bx-x";
     count++;
   } else {
