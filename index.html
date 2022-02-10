@@ -5,13 +5,156 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>portfolio-lesson</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="css/col.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+
+
+<section class="hero__content">
+  <div class="container">
+    <header class="header">
+        <div class="container-fluid">
+          <div class="header__inner">
+            <div class="header__logo-box">
+              <a href="#">
+                <img src="images/logo.svg" alt="img">
+              </a>
+            </div>
+              <div class="header__menu" id="headerMenu">
+                <nav class="header__nav nav">
+                  <ul class="nav__list style-none">
+                    <li class="nav__item">
+                      <a class="nav__link" href="#">
+                        home
+                      </a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="#">
+                        PORTFOLIO
+                      </a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="#">
+                        CONTACT ME
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="header__img-hidden">
+                  <a href="#">
+                    <img class="header__logo--white" src="images/logo.svg" alt="img">
+                  </a>
+                </div>
+              </div>
+              <button class="header__btn" id="headerBtn">
+                <i class='bx bx-menu' id="icon"></i>
+               </button>
+          </div>
+        </div>
+    </header>
+    <div class="hero">
+      <div class="container-fluid">
+        <div class="hero__inner">
+          <div class="hero__info">
+            <h2 class="hero__title">Hey, I'm Alex Spencer and I love building beautiful websites</h2>
+            <div class="hero__btn-box">
+              <button class="hero__btn"><img class="hero__btn-img" src="images/hero-btn.svg" alt="img">ABOUT ME</button>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about">
+  <div class="container-fluid">
+    <div class="about__inner">
+      <div class="about__img-box col-xs-12 col-sm-6">
+        <img class="about__img" src="images/about.png" alt="img">
+      </div>
+      <div class="about__info col-xs-12 col-sm-6">
+        <h2 class="about__title">About Me</h2>
+        <p class="about__text">I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.</p>
+        <a class="about__link link" href="#">GO TO PORTFOLIO</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="project">
+  <div class="container-fluid">
+    <div class="project__inner">
+      <h2 class="project__title">Interested in doing a project together?</h2>
+      <div class="project__link-box">
+        <a class="project__link link" href="#">CONTACT ME</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="footer__inner">
+      <div class="footer__logo-box">
+        <img class="footer__logo" src="images/shape.png" alt="img">
+        <nav class="footer__list-box">
+          <ul class="footer__list style-none">
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                home
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                PORTFOLIO
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                CONTACT ME
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__social-box">
+        <nav class="footer__list-box">
+          <ul class="footer__social-list style-none">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <i class='bx bxl-github'></i>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <i class='bx bxl-twitter' ></i>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <i class='bx bxl-linkedin-square' ></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
 
   <script src="js/main.js"></script>
 </body>
