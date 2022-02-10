@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #fafafa;
   font-family: 'Public Sans', sans-serif;
   min-height: 100vh;
   display: flex;
@@ -130,6 +130,7 @@ body {
 }
 .hero__btn {
   background-color: var(--btn-bg);
+  border: none;
   mix-blend-mode: normal;
   opacity: 0.8;
   font-weight: normal;

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --text-color: #33323d;
+  --primary-color:  #5fb4a2;
+  --btn-bg: #203a4c;
+  --white-bg: #fff;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Public Sans', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1110px;
+}
+.style-none {
+  list-style-type: none;
+}
+
+.header {
+  padding: 64px 0 20px 0;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  width: 60px;
+  height: 32px;
+}
+.header__logo--white {
+  width: 60px;
+  height: 32px;
+}
+.nav__list {
+  display: flex;
+}
+.nav__item:not(:last-child) {
+  margin-right: 42px;
+}
+.nav__link {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.nav__item:hover .nav__link{
+  color: var(--primary-color);
+  transition: all 0.4s ease;
+}
+.header__btn {
+  background-color: transparent;
+  border: none;
+  color: #333D4B;
+  display: none;
+  font-size: 40px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: var(--text-color);
+}
+.text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.link {
+    font-weight: normal;
+    font-size: 12px;
+    border: 1px solid #33323D;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--white-bg);
+    padding: 16px 35px;
+  }
+
+
+/* manage */
+.manage {
+    padding: 50px 0 75px 0;
+}
