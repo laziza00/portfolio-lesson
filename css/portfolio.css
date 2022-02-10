@@ -87,7 +87,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    color: #33323D;
+    color: var(--text-color);
     mix-blend-mode: normal;
     opacity: 0.8;
 }
@@ -108,4 +108,20 @@ body {
 /* manage */
 .manage {
     padding: 50px 0 75px 0;
+}
+.manage__item {
+    display: flex;
+    justify-content: space-between;
+}
+.manage__info {
+    padding-top: 103px;
+    border-top: 1px solid #b4b4b84b;
+    border-bottom: 1px solid #b4b4b84b;
+}
+.manage__title {
+    margin-bottom: 28px;
+}
+.manage__text {
+    width: 350px;
+    margin-bottom: 24px;
 }
