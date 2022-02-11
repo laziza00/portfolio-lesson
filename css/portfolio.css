@@ -316,10 +316,12 @@ body {
       flex-direction: column;
       transition: all 0.4s ease;
       z-index: 98;
-    }
-    .show{
-      width: 223px;
-    }
+      opacity: 0;
+  }
+  .show{
+    width: 223px;
+    opacity: 1;
+  }
   
     .header__content {
       position: relative;
