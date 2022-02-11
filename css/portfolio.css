@@ -105,34 +105,34 @@ body {
   }
 
 
-/* manage */
-.manage {
+/* portfolio */
+.portfolio {
     padding: 50px 0 75px 0;
 }
-.manage__item {
+.portfolio__item {
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
 }
-.manage__item:nth-child(2n) {
+.portfolio__item:nth-child(2n) {
     flex-direction: row-reverse;
 }
-.manage__item:nth-child(2n+1) .manage__info{
+.portfolio__item:nth-child(2n+1) .portfolio__info{
     padding-left: 75px;
 }
-.manage__info {
+.portfolio__info {
     padding-top: 103px;
     border-top: 1px solid #b4b4b84b;
     border-bottom: 1px solid #b4b4b84b;
 }
-.manage__title {
+.portfolio__title {
     margin-bottom: 28px;
 }
-.manage__text {
+.portfolio__text {
     width: 350px;
     margin-bottom: 24px;
 }
-.manage__link {
+.portfolio__link {
     color: var(--text-color);
     display: inline-block;
     margin-bottom: 103px;
@@ -142,7 +142,7 @@ body {
     color: var(--white-bg);
     transition: all 0.4s ease;
 }
-.manage__img {
+.portfolio__img {
     width: 540px;
     height: 500px;
 }
@@ -253,28 +253,36 @@ body {
 
 
 
-/* manage */
-.manage {
+
+
+
+
+    /* portfolio */
+.portfolio {
     padding: 50px 0 75px 0;
 }
-
-.manage__img-box {
+.portfolio__img-box {
     padding-top: 51px;
 }
-.manage__info {
+.portfolio__info {
     padding-top: 32px;
+    border-top: 1px solid #b4b4b84b;
+    border-bottom: 1px solid #b4b4b84b;
 }
-
-.manage__text {
+.portfolio__title {
+    margin-bottom: 28px;
+}
+.portfolio__text {
     width: 281px;
+    margin-bottom: 35px;
+}
+.portfolio__link {
+    margin-bottom: 50px;
 }
 
-.manage__img {
+.portfolio__img {
     width: 339px;
     height: 314px;
-}
-.manage__link {
-    margin-bottom: 51px;
 }
 
 }
@@ -359,40 +367,35 @@ body {
 
 
 
-
-  /* manage */
-.manage {
-    padding: 40px 0 72px 0;
+/* portfolio */
+.portfolio {
+    padding: 50px 0 40px 0;
 }
-.manage__item {
+.portfolio__item {
+    justify-content: center;
     flex-direction: column;
-    justify-content: none;
     margin-bottom: 72px;
 }
-.manage__item:nth-child(2n) {
+.portfolio__item:nth-child(2n) {
     flex-direction: column;
 }
-.manage__item:nth-child(2n+1) .manage__info{
+.portfolio__item:nth-child(2n+1) .portfolio__info{
     padding-left: 0;
 }
-.manage__info {
+.portfolio__info {
     padding-top: 24px;
 }
-.manage__img-box {
-    padding-top: 0;
-    margin: 0 auto;
-}
-.manage__title {
+.portfolio__title {
     margin-bottom: 24px;
 }
-.manage__text {
+.portfolio__text {
     width: 100%;
 }
-.manage__link {
+.portfolio__link {
     margin-bottom: 24px;
 }
 
-.manage__img {
+.portfolio__img {
     width: 311px;
     height: 288px;
     margin: 0 auto 32px auto;
